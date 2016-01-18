@@ -1,0 +1,380 @@
+.sides
+{
+	background-color: #686b70;
+	margin-top: 0px;
+	height: auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	min-height: 0px;
+}
+
+body 
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+
+}
+
+.torso
+{
+	background-color: #EEE;
+	margin-top: 0px;
+}
+
+div#centerDiv 
+{
+	width: 600px;
+	text-align: center;
+}
+
+ul.centerUL 
+{
+    margin-left: 2px auto;
+	margin-right: 2px auto;
+    /*line-height: 1.4;*/
+}
+.centerUL li 
+{
+	display: inline;
+	text-align: center;
+}
+
+.newcontainer
+{
+	background-color: #EEE;
+	color: #333;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0;
+}
+
+.headline
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+img.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.jumbotron {
+	/* [disabled]padding: 30px; */
+	margin-bottom: 30px;
+	color: #333;
+	background-color: #eee;
+
+	margin-right: ;
+	margin-left: 15px;
+	/* [disabled]width: 68%; */
+	float: left;
+}
+.jumbotron h1, .jumbotron h2 
+{
+	color: #333;
+	padding: 0px;
+	/* [disabled]margin-left:45%; */
+	padding-left: 25px;
+}
+/*.jumbotron p 
+{
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 200;
+	margin-left:45%;
+	padding-left:25px;
+}*/
+
+.jumbotron img
+{
+	margin-left: 0%;
+	padding-top: 25px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+.container .jumbotron {
+	/* [disabled]border-radius: 0px; */
+}
+.jumbotron .container {
+	max-width: 100%
+}
+
+.recentnews h3
+{
+	text-align:center;	
+}
+
+.recentnews
+{
+	/* [disabled]margin-left: 70%; */
+	margin-right: 15px;
+	background-color: #6E6E6E;
+	color: #fff;
+	text-align: left;
+	margin-top: 25px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	float: right;
+	width: 350px;
+}
+
+.recentnews a
+{
+	color: #F14563
+}
+
+.recentnews a:hover
+{
+	color: #fff;	
+}
+
+.profile 
+{
+	margin-left: 45%;
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 200;
+	padding-left: 10px;
+	width: 50%;
+}
+
+.profile h2
+{
+	text-align:left;
+	padding:0px;
+}
+
+.prof
+{
+	float: left;	
+	width:275px;
+}
+
+.prof img
+{
+	float: left;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+.main
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1250px;
+	background-color: #eee;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: auto;
+	height: 650px;
+}
+
+.footer
+{
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.custcarousel
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1250px;	
+}
+
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .list-group {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color: #d21034;
+}
+
+@media (min-width: 992px) { 
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;} 	
+}
+@media (max-width: 991px) { 
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;} 
+}
+@media (min-width: 1251px)
+{
+	.medium
+	{
+		display:none;
+	}
+	
+	.small
+	{
+		display:none;
+	}
+}
+
+/*bewteen 1250px and 900px*/
+@media (max-width: 1250px)
+{
+	.biggest
+	{
+		display :none;	
+	}
+	.medium
+	{
+		display:inline;
+	}
+	
+	.small
+	{
+		display:none;
+	}
+	
+	.main
+	{
+		width:1000px;	
+	}
+	
+	.custcarousel
+	{
+		width:1000px;	
+	}
+	
+	.recentnews
+	{
+		width:325px;	
+	}
+}
+
+@media (max-width: 1000px)
+{
+	.biggest
+	{
+		display :none;	
+	}
+	.medium
+	{
+		display:none;
+	}
+	
+	.small
+	{
+		display:inline;
+	}
+	
+	.main
+	{
+		width:900px;	
+		height:400px;
+	}
+	
+	.custcarousel
+	{
+		width:900px;	
+	}
+	
+	.recentnews
+	{
+		width:325px;	
+	}
+	
+	.extras
+	{
+		display:none;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.biggest
+	{
+		display :none;	
+	}
+	.medium
+	{
+		display:none;
+	}
+	
+	.small
+	{
+		display:inline;
+	}
+	
+	.main
+	{
+		width:600px;	
+		height:900px;
+	}
+	
+	.group
+	{
+		text-align:center;
+	} 
+	
+	.jumbotron
+	{
+		margin-bottom:0px;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.custcarousel
+	{
+		width:600px;	
+	}
+	
+	.recentnews
+	{
+		width:500px;
+		float:none;	
+		margin-right:auto;
+		margin-left:auto;
+	}
+	
+	.extras
+	{
+		display:inline;
+	}
+	
+	.carousel-caption
+	{
+		display:none;
+	}
+}

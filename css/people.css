@@ -1,0 +1,251 @@
+body 
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+	height:45px;
+}
+.container
+{
+	height:45px;
+}
+
+.container-fluid
+{
+	height:inherit;
+}
+
+.torso
+{
+	background-color: #EEE;
+	margin-top: 0px;
+}
+
+div#centerDiv 
+{
+	width: 700px;
+	text-align: center;
+	height:44px;
+}
+
+ul.centerUL 
+{
+    margin-left: 2px auto;
+	margin-right: 2px auto;
+    /*line-height: 1.4;*/
+}
+.centerUL li 
+{
+	display: inline;
+	text-align: center;
+}
+
+.newcontainer
+{
+	background-color: #EEEEEE;
+	color: #333;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0;
+}
+
+.headline
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.footer
+{
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.sides
+{
+	background-color: #686b70;
+	margin-top: 0px;
+}
+
+.members
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1250px;
+	color: #333;
+	margin-top: 0px;
+	background-color: #eee;
+	padding-top: 15px;
+}
+
+.members h2
+{
+	text-align:center;
+	font-size: 50px;	
+	text-align:center;
+	margin:0;	
+}
+
+.style4
+{
+	font-size:30px;
+	font-weight:bold;	
+}
+
+.style8
+{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.year
+{
+	font-weight:bold;	
+}
+
+.rescue
+{
+	display:none;
+}
+
+.category
+{
+	font-weight:bold;
+	font-size:30px;
+}
+
+.name
+{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.text
+{
+	float:left;
+}
+
+.profile
+{
+	float:right;
+	margin-left:50%;
+	width:100%;
+}
+
+.col-xs-6 img
+{
+	width:100%;
+}
+
+.row
+{
+	margin:0;
+}
+@media (max-width: 1250px)
+{
+	.members
+	{
+		width:1000px;	
+	}
+}
+
+@media (max-width: 1000px)
+{
+	.members
+	{
+		width:900px;	
+	}
+}
+
+@media (max-width: 768px)
+{
+	.members
+	{
+		width:auto;
+		padding-left:5%;
+		padding-right:5%;	
+	}
+	
+	.members table
+	{
+		width : auto;
+		display:none;
+	}
+
+	.members>.rescue
+	{
+		display:block;
+	}
+	.group
+	{
+		text-align:center;	
+	}
+	
+	div#centerDiv
+	{
+		width:auto;
+	}
+
+	ul.centerUL
+	{
+		margin:0;
+		padding:0;
+	}
+
+	/*navbar adjustments*/
+	.center
+	{
+		width:100%;
+	}
+
+	.navbar
+	{
+		height:auto;
+	}
+
+	.container
+	{
+		height:auto;
+	}
+
+	div#centerDiv
+	{
+		height:auto;
+	}
+
+	.navbar-nav>.active>a
+	{
+		height:auto !important;
+	}
+
+	.navbar-nav>.open>a
+	{
+		height:auto !important;
+	}
+
+	.members tr td
+	{
+		width:auto;
+	}
+}

@@ -1,0 +1,215 @@
+body 
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+	height:45px;
+}
+.container
+{
+	height:45px;
+}
+
+.container-fluid
+{
+	height:inherit;
+}
+.torso
+{
+	background-color: #EEE;
+	margin-top: 0px;
+}
+
+div#centerDiv 
+{
+	width: 700px;
+	text-align: center;
+	height:44px;
+}
+
+ul.centerUL 
+{
+    margin-left: 2px auto;
+	margin-right: 2px auto;
+}
+.centerUL li 
+{
+	display: inline;
+	text-align: center;
+}
+
+.newcontainer
+{
+	background-color: #EEE;
+	color: #333;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0;
+}
+
+.headline
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.footer
+{
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.research
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1250px;
+	color: #333;
+	background-color: #eee;
+	padding-top:15px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.research h2
+{
+	text-align:center;
+	font-size: 50px;	
+	text-align:center;
+	margin:0;	
+}
+
+.research img
+{
+	padding-left:10px;	
+}
+.style3
+{
+	font-size:small;
+	vertical-align:sub;	
+}
+.style5
+{
+	font-family:symbol;
+}
+.style8
+{
+	font-size:20px;
+	font-weight:bold;	
+}
+
+.btn-group .dropdown-menu a
+{
+    color:#fff;
+}
+
+.btn-group-primary .dropdown-menu 
+{
+  background-color: #D21034 !important;
+}
+.btn-group-primary .dropdown-menu li > a:hover,
+.btn-group-primary .dropdown-menu li > a:focus {
+  background-color: #9C0C25 !important;
+}
+
+.sides
+{
+	background-color: #686b70;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+@media (max-width: 1250px)
+{
+	.research
+	{
+		width:1000px;	
+	}
+}
+
+@media (max-width: 1000px)
+{
+	.research
+	{
+		width:900px;	
+	}
+}
+
+@media (max-width: 768px)
+{
+	.research
+	{
+		width:auto;
+		padding-left:5%;
+		padding-right:5%;		
+	}
+		div#centerDiv
+	{
+		width:auto;
+	}
+
+	.research img
+	{
+		width:100%;
+		height:auto;
+	}
+
+	ul.centerUL
+	{
+		margin:0;
+		padding:0;
+	}
+
+	/*navbar adjustments*/
+	.center
+	{
+		width:100%;
+	}
+
+	.navbar
+	{
+		height:auto;
+	}
+
+	.container
+	{
+		height:auto;
+	}
+
+	div#centerDiv
+	{
+		height:auto;
+	}
+
+	.navbar-nav>.active>a
+	{
+		height:auto !important;
+	}
+
+	.navbar-nav>.open>a
+	{
+		height:auto !important;
+	}
+}
+}

@@ -1,0 +1,154 @@
+body 
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+
+}
+
+.torso
+{
+	background-color: #EEE;
+	margin-top: 0px;
+}
+
+div#centerDiv 
+{
+	width: 600px;
+	text-align: center;
+}
+
+ul.centerUL 
+{
+    margin-left: 2px auto;
+	margin-right: 2px auto;
+    /*line-height: 1.4;*/
+}
+.centerUL li 
+{
+	display: inline;
+	text-align: center;
+}
+
+.newcontainer
+{
+	background-color: #EEEEEE;
+	color: #333;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0;
+}
+
+.headline
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.footer
+{
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.sides
+{
+	background-color: #686b70;
+	margin-top: 0px;
+}
+
+.members
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1250px;
+	color: #333;
+	margin-top: 0px;
+	background-color: #eee;
+	padding-top: 15px;
+}
+
+.members h2
+{
+	text-align:center;
+	font-size: 50px;	
+	text-align:center;
+	margin:0;	
+}
+
+.style4
+{
+	font-size:30px;
+	font-weight:bold;	
+}
+
+.style8
+{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.year
+{
+	font-weight:bold;	
+}
+
+@media (max-width: 1250px)
+{
+	.members
+	{
+		width:1000px;	
+	}
+}
+
+@media (max-width: 1000px)
+{
+	.members
+	{
+		width:900px;	
+	}
+}
+
+@media (max-width: 768px)
+{
+	.members
+	{
+		width:600px;	
+	}
+	
+	.members table
+	{
+		width : 550px;
+	}
+	.group
+	{
+		text-align:center;	
+	}
+	
+	.group img
+	{
+		width:500px;	
+	}
+	
+}

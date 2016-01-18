@@ -1,0 +1,146 @@
+body 
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+
+}
+
+.torso
+{
+	background-color: #eee;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div#centerDiv 
+{
+	width: 600px;
+	text-align: center;
+}
+
+ul.centerUL 
+{
+    margin-left: 2px auto;
+	margin-right: 2px auto;
+    /*line-height: 1.4;*/
+}
+.centerUL li 
+{
+	display: inline;
+	text-align: center;
+}
+
+.newcontainer
+{
+	background-color: #EEE;
+	color: #333;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0;
+}
+
+.headline
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.footer
+{
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.news
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1250px;
+	color: #333;
+	background-color: #eee;
+	padding-top:15px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.news h2
+{
+	text-align:center;
+	font-size: 50px;	
+	text-align:center;
+	margin:0;	
+}
+
+.style8
+{
+	font-size:20px;
+	font-weight:bold;	
+}
+
+.btn-group .dropdown-menu a
+{
+    color:#fff;
+}
+
+.btn-group-primary .dropdown-menu 
+{
+  background-color: #D21034 !important;
+}
+.btn-group-primary .dropdown-menu li > a:hover,
+.btn-group-primary .dropdown-menu li > a:focus {
+  background-color: #9C0C25 !important;
+}
+
+.sides
+{
+	background-color: #686b70;
+	margin-top: 0px;
+}
+
+
+/*bewteen 1250px and 900px*/
+@media (max-width: 1250px)
+{
+	.news
+	{
+		width:1000px;	
+	}
+}
+
+@media (max-width: 1000px)
+{
+	.news
+	{
+		width:900px;	
+	}
+}
+
+@media (max-width: 768px)
+{
+	.news
+	{
+		width:600px;	
+	}
+}
